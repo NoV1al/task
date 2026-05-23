@@ -10,7 +10,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
 
-  const API_URL = "http://127.0.0.1:8000/api/taskko/";
+  const API_URL = "https://bens.pythonanywhere.com/api/taskko/";
 
   const fetchTasks = async () => {
     try {
